@@ -19,28 +19,28 @@ const Sidebar = ({children}) => {
             icon: <FaTh/>
         },
         {
-            path: '/about',
-            name: 'About',
+            path: '/sobre',
+            name: 'Sobre',
             icon: <FaUserAlt/>
         },
         {
-            path: '/analytics',
-            name: 'Analytics',
+            path: '/tutoriais',
+            name: 'Tutoriais',
             icon: <FaRegChartBar/>
         },
         {
-            path: '/comment',
-            name: 'Comment',
+            path: '/chat',
+            name: 'Chat',
             icon: <FaCommentAlt/>
         },
         {
-            path: '/product',
-            name: 'Product',
+            path: '/planos',
+            name: 'Planos',
             icon: <FaShoppingBag/>
         },
         {
-            path: '/productList',
-            name: 'Product List',
+            path: '/links',
+            name: 'Links',
             icon: <FaThList/>
         },
     ]
@@ -48,7 +48,6 @@ const Sidebar = ({children}) => {
         <div className="container">
             <div style={{width: isOpen ? '300px' : '70px'}} className="sidebar">
                 <div className="top_section">
-                    {/* <h1 className="logo">{Logo}</h1> */}
                     <img style={{display: isOpen ? 'block' : 'none'}} src={Logo} alt="upnetix" className="logo" />
                     <div style={{marginLeft: isOpen ? '50px' : '0px'}} className="bars">
                         <FaBars onClick={toggle}/>

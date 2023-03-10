@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,800;0,900;1,300;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600&display=swap');
 
 *{
   margin: 0;
@@ -80,3 +81,55 @@ main {
   background-color:#297DC8;
   color: #000;
 }
+
+.box-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color:#232642;
+  margin-top: -20px;
+  height: 60px;
+  width: 100%;
+  border-radius: 0 0 25px 25px;
+  
+}
+
+.text {
+  
+  color: white;
+  font-family: 'sono';
+}
+
+.box-all {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 150px;
+  font-family: 'nunito';
+}
+
+.box-pg {
+  background-color: #232642;
+  width: 280px;
+  margin-top: 225px;
+  padding: 45px;
+  border-radius: 0 50px 0 50px;
+}
+
+.box-prtg2 {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  margin-top: 25px;
+  gap: 20px;
+}
+
+.box-prtg2 button {
+  font-family: 'sono';
+  font-size: 22px;
+  border-radius: 5px;
+  border-radius: 0 15px 0 15px;
+  cursor: pointer;
+}
+

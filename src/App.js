@@ -4,11 +4,11 @@ import './App.css'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Sidebar from './components/Sidebar';
 import Dashboard from "./pages/Dashboard";
-import About from "./pages/About";
-import Comment from "./pages/Comment";
-import Analytics from "./pages/Analytics";
-import Product from "./pages/Product";
-import ProductList from "./pages/ProductList";
+import Sobre from "./pages/About";
+import Chat from "./pages/Chat";
+import Tutoriais from "./pages/Tutoriais";
+import Planos from "./pages/Planos";
+import Links from "./pages/Links";
 
 
 function App() {
@@ -19,11 +19,11 @@ function App() {
           <Routes>
               <Route path='/' element={<Dashboard/>} />
               <Route path='/dashboard' element={<Dashboard/>}/>
-              <Route path='/about' element={<About/>}/>
-              <Route path='/comment' element={<Comment/>}/>
-              <Route path='/analytics' element={<Analytics/>}/>
-              <Route path='/product' element={<Product/>}/>
-              <Route path='/productList' element={<ProductList/>}/>
+              <Route path='/sobre' element={<Sobre />}/>
+              <Route path='/chat' element={<Chat/>}/>
+              <Route path='/tutoriais' element={<Tutoriais/>}/>
+              <Route path='/planos' element={<Planos/>}/>
+              <Route path='/links' element={<Links/>}/>
             </Routes>
         </Sidebar>
           

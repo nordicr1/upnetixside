@@ -1,13 +1,13 @@
 import React from "react";
 
-const Sobre = () => {
+const Tutoriais = () => {
     return (
         <div>
             <header className="box-header">
-                <h1 className="text">SOBRE PAGE</h1>
+                <h1 className="text">TUTORIAIS PAGE</h1>
             </header>
         </div>
-    );
-};
+    )
+}
 
-export default Sobre;
+export default Tutoriais;
