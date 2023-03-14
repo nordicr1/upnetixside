@@ -9,6 +9,7 @@ import Chat from "./pages/Chat";
 import Tutoriais from "./pages/Tutoriais";
 import Planos from "./pages/Planos";
 import Links from "./pages/Links";
+import ScrollPage from "./components/scroll";
 
 
 function App() {
@@ -25,8 +26,8 @@ function App() {
               <Route path='/planos' element={<Planos/>}/>
               <Route path='/links' element={<Links/>}/>
             </Routes>
-        </Sidebar>
-          
+          <ScrollPage />
+        </Sidebar> 
       </BrowserRouter>
     </div>
   );

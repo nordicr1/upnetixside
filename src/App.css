@@ -18,16 +18,21 @@ main {
   padding: 20px;
   background-color: #297DC8;
   color: white;
-
   
   
 }
 
 .sidebar {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   background: #232642;
   color: #fff;
-  height: 100vh;
+  min-height: 100vh;
+  width: 100%;
   transition: all 0.7s;
+
+  
 }
 
 .top_section {
@@ -35,6 +40,7 @@ main {
   align-items: center;
   padding: 20px 17px;
   margin-left: -5px;
+  
 }
 
 .logo {
@@ -69,6 +75,7 @@ main {
   font-size: 20px;
   font-family: 'nunito';
   font-weight: 600;
+  
 }
 
 .link:hover {
@@ -96,17 +103,8 @@ main {
 }
 
 .text {
-  
   color: white;
   font-family: 'sono';
-}
-
-.box-all {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  gap: 150px;
-  font-family: 'nunito';
 }
 
 .box-pg {
@@ -133,3 +131,54 @@ main {
   cursor: pointer;
 }
 
+
+.box-olt-all {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  font-family: 'sono';
+}
+
+
+.box-all {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 150px;
+  
+}
+
+
+.box-olt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  gap: 20px;
+  font-family: 'nunito';
+  
+  margin-top: 26px;
+  background-color: #232642;
+  width: 539px;
+  border-radius: 10px;
+  
+  box-shadow: 10px 10px 10px black;
+  padding: 20px;
+  
+}
+
+.box-h2 h2{
+  display: flex;
+  align-items: center;
+}
+
+
+.box-olt-text {
+  display: flex;
+  
+  flex-direction: column;
+  
+  gap: 18px;
+  margin-left: 10px;
+  
+}
